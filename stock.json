@@ -1,0 +1,1220 @@
+[
+	{
+		"name": "Laura Roslin",
+		"type": "political",
+		"pos": {
+			"header": "Religious Visions",
+			"text": "When you draw Crisis Cards, draw 2 and choose 1 to resolve. Place the other on the bottom of the deck."
+		},
+		"opg": {
+			"header": "Skilled Politician - Action",
+			"text": "Once per game, draw 4 Quorum Cards. Choose 1 to resolve and place the rest on the bottom of the deck. You do not need to be President to use this ability."
+		},
+		"neg": {
+			"header": "Terminal Illness",
+			"text": "In order to activate a location, you must first discard 2 Skill Cards."
+		},
+		"setup": "President's Office",
+		"succ": {
+			"president": 1,
+			"admiral": 26,
+			"cag": 26
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/8/8b/Laura_Roslin.jpg/200px-Laura_Roslin.jpg",
+		"skills": [
+			{
+				"num": 3,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Gaius Baltar",
+		"type": "political",
+		"pos": {
+			"header": "Delusional Intuition",
+			"text": "After you draw a Crisis Card, draw 1 Skill Card of your choice (it may be from outside your skill set)."
+		},
+		"opg": {
+			"header": "Cylon Detector - Action",
+			"text": "Once per game, you may look at all Loyalty Cards belonging to another player."
+		},
+		"neg": {
+			"header": "Coward",
+			"text": "You start the game with 2 Loyalty Cards (instead of 1)."
+		},
+		"setup": "Research Lab",
+		"succ": {
+			"president": 2,
+			"admiral": 23,
+			"cag": 23
+		},
+		"image": "https://upload.wikimedia.org/wikipedia/en/5/51/Baltar_Season_3.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "politics"
+			},
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Tom Zarek",
+		"type": "political",
+		"pos": {
+			"header": "Friends in Low Places",
+			"text": "When a player activates the \"Administration\" or the \"Brig\" location, you may choose to reduce or increase the difficulty by 2."
+		},
+		"opg": {
+			"header": "Unconventional Tactics - Action",
+			"text": "Once per game, lose 1 population to gain 1 of any other resource type."
+		},
+		"neg": {
+			"header": "Convicted Criminal",
+			"text": "You may not activate locations occupied by other characters (except the \"Brig\")."
+		},
+		"setup": "Administration",
+		"succ": {
+			"president": 4,
+			"admiral": 20,
+			"cag": 20
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/0/0e/Zarek.jpg/200px-Zarek.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "tactics"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "William Adama",
+		"type": "military",
+		"pos": {
+			"header": "Inspirational Leader",
+			"text": "When you draw a Crisis Card, all 1 strength Skill Cards count positive for the skill check."
+		},
+		"opg": {
+			"header": "Command Authority",
+			"text": "Once per game, after resolving a skill check, instead of discarding the used Skill Cards, draw them into your hand."
+		},
+		"neg": {
+			"header": "Emotionally Attached",
+			"text": "You may not activate the \"Admiral's Quarters\" location."
+		},
+		"setup": "Admiral's Quarters",
+		"succ": {
+			"president": 11,
+			"admiral": 2,
+			"cag": 10
+		},
+		"image": "http://media.battlestarwiki.org/images/3/38/William_Adama_promo.jpg",
+		"skills": [
+			{
+				"num": 3,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Saul Tigh",
+		"type": "military",
+		"pos": {
+			"header": "Cylon Hatred",
+			"text": "When a player activates the \"Admiral's Quarters\" location, you may choose to reduce the difficulty by 3."
+		},
+		"opg": {
+			"header": "Declare Martial Law - Action",
+			"text": "Once per game, give the President title to the Admiral."
+		},
+		"neg": {
+			"header": "Alcoholic",
+			"text": "At the start of any player's turn, if you have exactly 1 Skill Card in your hand, you must discard it."
+		},
+		"setup": "Command",
+		"succ": {
+			"president": 22,
+			"admiral": 3,
+			"cag": 12
+		},
+		"image": "https://battlebloggalactica.files.wordpress.com/2007/01/200px-tigh.PNG",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 3,
+				"text": "tactics"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Karl \"Helo\" Agathon",
+		"type": "military",
+		"pos": {
+			"header": "ECO Officer",
+			"text": "During your turn, you may reroll a die that was just rolled (once per turn). You must use the new result."
+		},
+		"opg": {
+			"header": "Moral Compass",
+			"text": "Once per game, after a player makes a choice on a Crisis Card, you may change it."
+		},
+		"neg": {
+			"header": "Stranded",
+			"text": "Your character is not placed on the game board at the start of the game. While not on the game board, you may not move, be moved, or take actions. At the start of your 2nd turn, place your character on the \"Hangar Deck\" location."
+		},
+		"setup": "",
+		"succ": {
+			"president": 12,
+			"admiral": 4,
+			"cag": 9
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/4/43/Season_3_Helo.jpg/200px-Season_3_Helo.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "piloting"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Lee \"Apollo\" Adama",
+		"type": "pilot",
+		"pos": {
+			"header": "Alert Viper Pilot",
+			"text": "When a viper is placed in a space area from the \"Reserves,\" you may choose to pilot it and take 1 action. You may only do this when you are on a Galactica location, excluding the \"Brig.\""
+		},
+		"opg": {
+			"header": "CAG - Action",
+			"text": "Once per game, you may activate up to 6 unmanned vipers."
+		},
+		"neg": {
+			"header": "Headstrong",
+			"text": "When you are forced to discard Skill Cards, you must discard randomly."
+		},
+		"setup": "Launch and pilot a viper",
+		"succ": {
+			"president": 8,
+			"admiral": 8,
+			"cag": 1
+		},
+		"image": "http://vignette3.wikia.nocookie.net/headhuntersholosuite/images/c/c2/Lee_Adama_001.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "piloting"
+			},
+			{
+				"num": 2,
+				"text": "leadership/politics"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Kara \"Starbuck\" Thrace",
+		"type": "pilot",
+		"pos": {
+			"header": "Expert Pilot",
+			"text": "When you start your turn piloting a viper, you may take 2 actions during your Action Step (instead of 1)."
+		},
+		"opg": {
+			"header": "Secret Destiny",
+			"text": "Once per game, immediately after a Crisis Card is revealed, discard it and draw a new one."
+		},
+		"neg": {
+			"header": "Insubordinate",
+			"text": "When a player chooses you with the \"Admiral's Quarters\" location, reduce the difficulty by 3."
+		},
+		"setup": "Hangar Deck",
+		"succ": {
+			"president": 25,
+			"admiral": 11,
+			"cag": 2
+		},
+		"image": "https://upload.wikimedia.org/wikipedia/en/8/87/KaraThrace.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "piloting"
+			},
+			{
+				"num": 1,
+				"text": "leadership/engineering"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Sharon \"Boomer\" Valerii",
+		"type": "pilot",
+		"pos": {
+			"header": "Recon",
+			"text": "At the end of your turn, you may look at the top card of the Crisis Deck and place it on the top or bottom."
+		},
+		"opg": {
+			"header": "Mysterious Intuition",
+			"text": "Once per game, before resolving a skill check on a Crisis Card, choose the result (Pass or Fail), instead of resolving it normally."
+		},
+		"neg": {
+			"header": "Sleeper Agent",
+			"text": "During the Sleeper Agent Phase, you are dealt 2 Loyalty Cards (instead of 1) and then moved to the \"Brig\" location."
+		},
+		"setup": "Armory",
+		"succ": {
+			"president": 21,
+			"admiral": 13,
+			"cag": 5
+		},
+		"image": "https://titch1992.files.wordpress.com/2011/01/bsgboomer.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "Tactics"
+			},
+			{
+				"num": 2,
+				"text": "Piloting"
+			},
+			{
+				"num": 1,
+				"text": "Engineering"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "\"Chief\" Galen Tyrol",
+		"type": "support",
+		"pos": {
+			"header": "Maintenance Engineer",
+			"text": "During your turn, after you use a \"Repair\" Skill Card, you may take another action (once per turn)."
+		},
+		"opg": {
+			"header": "Blind Devotion",
+			"text": "Once per game, after cards have been added to a Skill Check (but before revealing them), you may choose a skill type. All cards of the chosen type are considered strength 0."
+		},
+		"neg": {
+			"header": "Reckless",
+			"text": "Your hand limit is 8 (instead of 10)."
+		},
+		"setup": "Hangar Deck",
+		"succ": {
+			"president": 13,
+			"admiral": 16,
+			"cag": 17
+		},
+		"image": "https://s-media-cache-ak0.pinimg.com/736x/8b/e6/2f/8be62fa678b792ba97d5eadebd334e08.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "engineering"
+			}
+		],
+		"origin": "base"
+	},
+	{
+		"name": "Ellen Tigh",
+		"type": "political",
+		"pos": {
+			"header": "Politically Adroit",
+			"text": "When you end your Movement step in the same location as another human player, you may give that player 1 Skill Card from your hand to draw 2 Skill Cards."
+		},
+		"opg": {
+			"header": "Manipulative",
+			"text": "Once per game, you may take the Admiral or President title at the start of your turn. Return that title to its previous owner at the end of your turn."
+		},
+		"neg": {
+			"header": "Nothing But Trouble",
+			"text": "Your Skill set includes Treachery. (Human players can't use text abilities of Treachery Cards.)"
+		},
+		"setup": "Admiral's Quarters",
+		"succ": {
+			"president": 7,
+			"admiral": 21,
+			"cag": 21
+		},
+		"image": "https://upload.wikimedia.org/wikipedia/en/f/fa/BSG-EllenTigh.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "treachery"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Helena Cain",
+		"type": "military",
+		"pos": {
+			"header": "Intolerant",
+			"text": "When an \"Admiral's Quarters\" Skill check is passed with a 10 or more, you may choose to execute that character instead of sending him to the \"Brig.\""
+		},
+		"opg": {
+			"header": "Blind Jump - Action",
+			"text": "Once per game, if at 6 or less distance, draw 2 civilian ships and destroy them to immediately jump the fleet (even if the fleet marker is on a red space). The Admiral only draws 1 Destination Card."
+		},
+		"neg": {
+			"header": "Bent on Revenge",
+			"text": "You may not activate the \"FTL Control\" or \"Engine Room\" locations."
+		},
+		"setup": "Pegasus CIC <span class='italic'>or</span> Command",
+		"succ": {
+			"president": 17,
+			"admiral": 1,
+			"cag": 11
+		},
+		"image": "http://www.geekgirlcon.com/wp-content/uploads/2013/08/Battlestar-Galactica143.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "tactics/leadership"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Louanne \"Kat\" Katraine",
+		"type": "pilot",
+		"pos": {
+			"header": "Hotshot",
+			"text": "When you would roll a die during your Action step, you may instead discard a Skill Card. Use the card's strength +2 instead of the die roll."
+		},
+		"opg": {
+			"header": "Sacrifice - Action",
+			"text": "Once per game while piloting a viper, send yourself to \"Sickbay\" to destroy 5 raiders, 2 heavy raiders, 1 basestar, or 1 civilian ship in your space area."
+		},
+		"neg": {
+			"header": "Stim Junkie",
+			"text": "At the end of your Action step, if you are in the same location or space area that you were in at the start of your turn, you are moved to \"Sickbay.\""
+		},
+		"setup": "Hangar Deck",
+		"succ": {
+			"president": 26,
+			"admiral": 12,
+			"cag": 3
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/0/02/Kat_bsgviper3_big.jpg/200px-Kat_bsgviper3_big.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "piloting"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Anastasia \"Dee\" Dualla",
+		"type": "support",
+		"pos": {
+			"header": "Efficient",
+			"text": "When you activate the \"Communications\" location, you may look at every civilian ship on the game board and may move any number of them."
+		},
+		"opg": {
+			"header": "Fast Learner",
+			"text": "Once per game, before making a Skill check, look at the top 3 cards of any Skill deck (even outside your Skill set), and add all of them to either the Skill check or your hand."
+		},
+		"neg": {
+			"header": "Emotionally Fragile",
+			"text": "When morale is reduced to 2 or less, you are executed. If you are human, do not lose 1 morale."
+		},
+		"setup": "Communications",
+		"succ": {
+			"president": 18,
+			"admiral": 9,
+			"cag": 14
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/d/d8/Anastasia_Dualla.jpg/200px-Anastasia_Dualla.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 3,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "\"Caprica\" Six",
+		"type": "cylon",
+		"pos": {
+			"header": "Intimate - Movement",
+			"text": "Draw 1 Skill Card at random from a player's hand. Then, that player draws 1 card from the Skill deck of your choice (it may be from outside his Skill set)."
+		},
+		"opg": {
+			"header": "Human Delusion",
+			"text": "Once per game, after all Skill Cards played into a Skill check have been revealed, you may play any number of Skill Cards from your hand into the check."
+		},
+		"neg": {
+			"header": "Conflicted Loyalties",
+			"text": "You must discard 1 Skill Card to activate the \"Cylon Fleet\" location."
+		},
+		"setup": "Caprica",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/f/fe/Season_3_-_Promo_-_AMOS_-_Number_Six.jpg/200px-Season_3_-_Promo_-_AMOS_-_Number_Six.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "treachery/engineering"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Cavil",
+		"type": "cylon",
+		"pos": {
+			"header": "Primacy - Action",
+			"text": "Place 1 basestar in front of Galactica, or if all basestars are in play, you may remove 1 from the game board. You may then place 3 raiders in front of Galactica and 1 civilian ship behind Galactica."
+		},
+		"opg": {
+			"header": "Aggressive Tactics - Movement",
+			"text": "Once per game you may take 2 Actions."
+		},
+		"neg": {
+			"header": "Lies and Secrets",
+			"text": "When a player reveals a \"You are a Cylon\" Loyalty Card, you must discard all Skill Cards in your hand."
+		},
+		"setup": "Cylon Fleet",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/2/2d/John_Cavil.jpg/200px-John_Cavil.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "treachery/engineering"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Leoben Conoy",
+		"type": "cylon",
+		"pos": {
+			"header": "Glimpse the Face of God - Movement",
+			"text": "Draw 2 cards from the top of the Destiny deck, then place 2 cards from your hand on top of the Destiny deck."
+		},
+		"opg": {
+			"header": "Cryptic Message - Action",
+			"text": "Once per game, exchange your hand of Skill Cards with another player's hand of Skill Cards."
+		},
+		"neg": {
+			"header": "Clouded",
+			"text": "You may not voluntarily move to a location that contains another character."
+		},
+		"setup": "Human Fleet",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/1/19/Leoben2.jpg/200px-Leoben2.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "politics"
+			},
+			{
+				"num": 1,
+				"text": "treachery/engineering"
+			}
+		],
+		"origin": "pegasus"
+	},
+	{
+		"name": "Tory Foster",
+		"type": "political",
+		"pos": {
+			"header": "Adaptable",
+			"text": "After any player uses the action on a Quorum Card, you may draw 2 Skill Cards of your choice (they may be from outside your skill set)."
+		},
+		"opg": {
+			"header": "Influential - Action",
+			"text": "Once per game, you may examine the top 5 cards of the Quorum deck, and return them to the top of the deck in any order you choose (even if you are not currently the President)."
+		},
+		"neg": {
+			"header": "Amoral",
+			"text": "When you are the current player, you must choose the first option listed on any Crisis Cards that say \"Current Player Chooses.\""
+		},
+		"setup": "Press Room",
+		"succ": {
+			"president": 6,
+			"admiral": 25,
+			"cag": 24
+		},
+		"image": "https://upload.wikimedia.org/wikipedia/en/0/03/Tory_Foster.png",
+		"skills": [
+			{
+				"num": 3,
+				"text": "politics"
+			},
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "tactics"
+			}
+		],
+		"origin": "exodus"
+	},
+	{
+		"name": "Felix Gaeta",
+		"type": "military",
+		"pos": {
+			"header": "FTL Operator",
+			"text": "Anytime \"FTL Control\" is activated, you may reroll the die. You must use the new result."
+		},
+		"opg": {
+			"header": "Coup - Action",
+			"text": "Once per game, you may take the Admiral title. If you are in the \"Brig\" when you take this action, move immediately to \"Command\" before taking the title."
+		},
+		"neg": {
+			"header": "Misguided",
+			"text": "You may not play more than 3 cards into any skill check."
+		},
+		"setup": "FTL Control",
+		"succ": {
+			"president": 10,
+			"admiral": 5,
+			"cag": 13
+		},
+		"image": "https://upload.wikimedia.org/wikipedia/en/b/be/Gaeta_Season_3.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			},
+			{
+				"num": 2,
+				"text": "leadership/politics"
+			}
+		],
+		"origin": "exodus"
+	},
+	{
+		"name": "Samuel T. Anders",
+		"type": "pilot",
+		"pos": {
+			"header": "Star Player - Action",
+			"text": "Discard any number of Skill Cards. Then draw that number of Skill Cards from any one type within your skill set."
+		},
+		"opg": {
+			"header": "Longshot",
+			"text": "Once per game, you may choose the result of a die roll on your turn instead of rolling it. This result cannot be modified or rerolled."
+		},
+		"neg": {
+			"header": "Starts on the Bench",
+			"text": "Skip the Receive Skills Step of your first turn."
+		},
+		"setup": "Armory",
+		"succ": {
+			"president": 24,
+			"admiral": 15,
+			"cag": 7
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/9/93/Samuel_Anders.jpg/200px-Samuel_Anders.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "tactics/piloting"
+			}
+		],
+		"origin": "exodus"
+	},
+	{
+		"name": "Callandra \"Cally\" Tyrol",
+		"type": "support",
+		"pos": {
+			"header": "Quick Fix",
+			"text": "On your turn, once all Skill Cards played into a skill check have been revealed, you may choose 1 card to discard before resolving skill check abilities and totalling strength."
+		},
+		"opg": {
+			"header": "Discharge of a Firearm - Action",
+			"text": "Once per game, you may execute another character who is in your current location."
+		},
+		"neg": {
+			"header": "Impulsive",
+			"text": "You cannot contribute only 1 Skill Card into a skill check. You must either contribute no Skill Cards or contribute 2 or more Skill Cards. (Disregard this while you are in the \"Brig.\")"
+		},
+		"setup": "Hangar Deck",
+		"succ": {
+			"president": 15,
+			"admiral": 17,
+			"cag": 18
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/2/2c/Cally_UnfinBusiness.JPG/180px-Cally_UnfinBusiness.JPG",
+		"skills": [
+			{
+				"num": 1,
+				"text": "politics"
+			},
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "engineering"
+			}
+		],
+		"origin": "exodus"
+	},
+	{
+		"name": "Romo Lampkin",
+		"type": "political",
+		"pos": {
+			"header": "Deceitful",
+			"text": "When a Crisis Card requires you to discard Skill Cards, reduce the number of cards you discard by 1 (once per Crisis Card)."
+		},
+		"opg": {
+			"header": "Attorney - Action",
+			"text": "Once per game, move a character in the \"Brig\" to any non-hazardous location on Galactica. If he belongs to another player, take all of that player's Skill Cards."
+		},
+		"neg": {
+			"header": "Kleptomania",
+			"text": "If you end your Movement Step in a location with another player, you must discard 2 Skill Cards. If you cannot, you are sent to the \"Brig\" at the end of your turn."
+		},
+		"setup": "Administration",
+		"succ": {
+			"president": 5,
+			"admiral": 24,
+			"cag": 25
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/d/d7/Romo_Lampkin.jpg/200px-Romo_Lampkin.jpg",
+		"skills": [
+			{
+				"num": 3,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Lee Adama",
+		"type": "political",
+		"pos": {
+			"header": "Forward Thinker",
+			"text": "AFter you use an \"Executive Order\" Skill Card and the chosen player has finished moving and taking actions, you may activate your current location."
+		},
+		"opg": {
+			"header": "Choose a Different Path",
+			"text": "Once per game, when you must make a choice on a Crisis Card, you may choose to have the result be: \"The current player discards 5 Skill Cards.\""
+		},
+		"neg": {
+			"header": "Moral Dilemma",
+			"text": "When you draw a Mutiny Card, you must discard 2 Skill Cards."
+		},
+		"setup": "Admiral's Quarters",
+		"succ": {
+			"president": 3,
+			"admiral": 19,
+			"cag": 8
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/e/ea/Lee_Adama.jpg/200px-Lee_Adama.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "piloting"
+			},
+			{
+				"num": 2,
+				"text": "leadership/politics"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Tom Zarek",
+		"type": "military",
+		"pos": {
+			"header": "Necessary Steps",
+			"text": "Each time a player draws a Mutiny Card, you instead look at the top 2 cards of the Mutiny deck, give 1 to that player, and place the other on the bottom of the deck."
+		},
+		"opg": {
+			"header": "Abuse Power - Action",
+			"text": "Once per game, draw 4 Mutiny Cards. Choose 1 of them to play and place the other 3 Mutiny Cards on the bottom of the deck. Ignore your \"Necessary Steps\" ability and do not move to the \"Brig.\""
+		},
+		"neg": {
+			"header": "Disreputable",
+			"text": "You start the game with 1 Mutiny Card."
+		},
+		"setup": "Weapons Control",
+		"succ": {
+			"president": 9,
+			"admiral": 7,
+			"cag": 16
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/0/0e/Zarek.jpg/200px-Zarek.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "tactics"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Louis Hoshi",
+		"type": "military",
+		"pos": {
+			"header": "Dutiful",
+			"text": "Once during your turn, if you activate \"Command,\" \"Communications,\" or \"Weapons Control,\" you may discard 1 Skill Card to immediately activate that location again."
+		},
+		"opg": {
+			"header": "Organized - Action",
+			"text": "Once per game, if you are not in the \"Brig,\" activate any 3 undamaged locations, regardless of where you are. You cannot activate the same location more than once or any Cylon locations."
+		},
+		"neg": {
+			"header": "Reluctant",
+			"text": "You must discard 1 Skill Card to use a Skill Card action."
+		},
+		"setup": "Communications",
+		"succ": {
+			"president": 19,
+			"admiral": 6,
+			"cag": 15
+		},
+		"image": "http://cache1.asset-cache.net/xr/138211532.jpg?v=1&c=IWSAsset&k=3&d=77BFBA49EF8789215AB089EE596C6588C9F41CC39F9B7ECCF66C8B2FF5A0BC559E10AF306068BB79E30A760B0D811297",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Karl \"Helo\" Agathon",
+		"type": "pilot",
+		"pos": {
+			"header": "Raptor Pilot",
+			"text": "When you look at the top card of a deck as a result of a \"Launch Scout\" card, look at the top 2 cards instead and, in the order of your choosing, place each card on the top or the bottom of the deck."
+		},
+		"opg": {
+			"header": "No One Gets Left Behind",
+			"text": "Once per game, during the Remove Ships step of Jumping the Fleet, lose 1 fuel to gain 2 population."
+		},
+		"neg": {
+			"header": "Family Commitments",
+			"text": "If you are not on Galactica, draw 1 fewer Skill Card during your Receive Skills step."
+		},
+		"setup": "Admiral's Quarters",
+		"succ": {
+			"president": 20,
+			"admiral": 10,
+			"cag": 4
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/4/43/Season_3_Helo.jpg/200px-Season_3_Helo.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 1,
+				"text": "piloting"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Brendan \"Hot Dog\" Costanza",
+		"type": "pilot",
+		"pos": {
+			"header": "Memento",
+			"text": "Once per turn, immediately after population is reduced, you may draw the top 3 cards from the Piloting deck, discard 1 of them, and keep the other 2 cards."
+		},
+		"opg": {
+			"header": "Escort",
+			"text": "Once per game, before flipping over a civilian ship in a space area and destroying it, you may destroy an undamaged viper instead. Shuffle the civilian ship back into the pile of unused civilian ships."
+		},
+		"neg": {
+			"header": "Forced to Eject",
+			"text": "Any time a viper you are piloting is damaged, destroy it instead."
+		},
+		"setup": "Hangar Deck",
+		"succ": {
+			"president": 23,
+			"admiral": 14,
+			"cag": 6
+		},
+		"image": "http://i86.servimg.com/u/f86/11/36/36/93/200px-30.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "piloting"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Sherman \"Doc\" Cottle",
+		"type": "support",
+		"pos": {
+			"header": "Treatment - Action",
+			"text": "Choose a human player and draw 2 Skill Cards from his skill set. Then, give him 2 Skill Cards from your hand."
+		},
+		"opg": {
+			"header": "Quarantine - Action",
+			"text": "Once per game, look at each civilian ship on the board. Choose 1 and draw a new civilian ship to replace it if possible. Shuffle the chosen ship back into the pile of unused civilian ships."
+		},
+		"neg": {
+			"header": "Specialized",
+			"text": "You cannot use actions printed on Engineering Cards."
+		},
+		"setup": "Research Lab",
+		"succ": {
+			"president": 16,
+			"admiral": 18,
+			"cag": 19
+		},
+		"image": "https://images-na.ssl-images-amazon.com/images/M/MV5BODkyNDUxMzQwOF5BMl5BanBnXkFtZTcwODUwODYxOA@@._V1_UY1200_CR83,0,630,1200_AL_.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "tactics"
+			},
+			{
+				"num": 2,
+				"text": "engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Gaius Baltar",
+		"type": "support",
+		"pos": {
+			"header": "Cult Leader - Action",
+			"text": "Choose a player in the same location as you and either give him one of your miracle tokens or take his miracle token."
+		},
+		"opg": {
+			"header": "Broadcast - Action",
+			"text": "Discard 3 miracle tokens to raise any resource by 2.<br><br><div class='bold' style='text-align: center;'>You can have up to 3 miracle tokens.</div>"
+		},
+		"neg": {
+			"header": "Spiritual Crisis",
+			"text": "You cannot use an action printed on a \"You Are a Cylon\" Loyalty Card unless you are in the \"Brig.\""
+		},
+		"setup": "Admiral's Quarters",
+		"succ": {
+			"president": 14,
+			"admiral": 22,
+			"cag": 22
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/7/73/Gaius_Baltar.jpg/200px-Gaius_Baltar.jpg",
+		"skills": [
+			{
+				"num": 2,
+				"text": "politics"
+			},
+			{
+				"num": 2,
+				"text": "leadership"
+			},
+			{
+				"num": 1,
+				"text": "engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Aaron Doral",
+		"type": "cylon",
+		"pos": {
+			"header": "Industrious",
+			"text": "While Infiltrating, draw 2 extra Skill Cards on your turn instead of 1. Disregard this ability while you are in \"Sickbay.\""
+		},
+		"opg": {
+			"header": "Meticulous",
+			"text": "Once per game, when you use an action to end your Infiltration, you may move to any Cylon location and take another action instead of moving to the Resurrection Ship."
+		},
+		"neg": {
+			"header": "Vanity",
+			"text": "You cannot contribute to skill checks during another player's Action Step."
+		},
+		"setup": "Caprica",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/7/77/CyDorFiv.jpg/180px-CyDorFiv.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "treachery"
+			},
+			{
+				"num": 1,
+				"text": "politics/tactics"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "D'Anna Biers",
+		"type": "cylon",
+		"pos": {
+			"header": "Visions - Action",
+			"text": "If you are Infiltrating, choose a human player and look at 1 of his Loyalty Cards at random. Then, end your Infiltration and move to the \"Resurrection Ship.\""
+		},
+		"opg": {
+			"header": "Don't Trust Anyone - Action",
+			"text": "Once per game, draw 2 Super Crisis Cards."
+		},
+		"neg": {
+			"header": "Heretic",
+			"text": "If you are on the \"Resurrection Ship\" location (but not the \"Hub Destroyed\" location), you must discard a Super Crisis Card to move to a different location."
+		},
+		"setup": "Human Fleet",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/0/06/CylonThree.jpg/200px-CylonThree.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "politics/leadership"
+			},
+			{
+				"num": 1,
+				"text": "treachery/engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Sharon \"Athena\" Agathon",
+		"type": "cylon",
+		"pos": {
+			"header": "For Love",
+			"text": "Once per turn, when another player must discard 1 or more Skill Cards (except when discarding down to his hand limit), you may draw 1 Treachery Card to reduce the number of cards he discards by 1."
+		},
+		"opg": {
+			"header": "Resolute - Action",
+			"text": "Once per game, activate any undamaged location."
+		},
+		"neg": {
+			"header": "Grieving",
+			"text": "When you are in a hazardous location, you cannot draw Skill Cards during your \"Receive Skills\" or \"Draw Skills\" step."
+		},
+		"setup": "Hangar Deck (Infiltrating)",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://vignette4.wikia.nocookie.net/galactica/images/c/ce/Sharon-valerii-boomer-gr.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "Piloting"
+			},
+			{
+				"num": 1,
+				"text": "leadership/engineering"
+			}
+		],
+		"origin": "daybreak"
+	},
+	{
+		"name": "Simon O'Neill",
+		"type": "cylon",
+		"pos": {
+			"header": "Calculating",
+			"text": "You may contribute 2 Skill Cards to skill checks, or 3 Skill Cards when Infiltrating. Disregard this ability while you are in the \"Brig.\""
+		},
+		"opg": {
+			"header": "Modifications",
+			"text": "Once per game, at the start of a player's \"Activate Cylon Ships\" step, either choose a Cylon ship type to activate or launch raiders. Ignore any Activate Cylon Ships icons on the bottom of the Crisis Card."
+		},
+		"neg": {
+			"header": "Logic-Bound",
+			"text": "When you play any Skill Cards into a skill check, you must play 1 face up."
+		},
+		"setup": "Cylon Fleet",
+		"succ": {
+			"president": 99,
+			"admiral": 99,
+			"cag": 99
+		},
+		"image": "http://media.battlestarwiki.org/images/thumb/2/2d/Cysim.jpg/200px-Cysim.jpg",
+		"skills": [
+			{
+				"num": 1,
+				"text": "engineering"
+			},
+			{
+				"num": 1,
+				"text": "treachery/tactics"
+			}
+		],
+		"origin": "daybreak"
+	}
+]
